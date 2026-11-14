@@ -1,0 +1,57 @@
+Q:1
+
+fruits = {"Apple", "Mango", "Banana", "Orange", "Grapes"}
+
+print(fruits)
+
+Q:2
+
+numbers = [2, 4, 2, 6, 4, 8, 8]
+
+unique_numbers = set(numbers)
+
+print(unique_numbers)
+
+Q:3
+
+numbers = {1, 2, 3, 4, 5}
+
+numbers.add(10)
+numbers.remove(3)
+
+print(numbers)
+
+Q:4
+
+numbers = {10, 20, 30, 40, 50}
+
+num = int(input("Enter a number: "))
+
+if num in numbers:
+print("Number exists in the set")
+else:
+print("Number does not exist in the set")
+
+Q:5
+
+values = {1, 2, 2, 3, 3, 3, 4}
+
+print(len(values))
+
+Q:6
+
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+
+Union:
+
+print(A | B)
+
+Intersection:
+print(A & B)
+
+Difference
+print(A - B)
+
+Symmetric difference
+print(A ^ B)
